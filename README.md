@@ -71,3 +71,5 @@ Once the deployment was complete, the Java application was accessible via the ex
 External Access: The application is accessible externally via the LoadBalancer's DNS name (something like k8s-default-javaapp-xxxxx.elb.us-east-1.amazonaws.com). If an Ingress was set up with a custom domain (e.g., your-domain.com), the application could also be accessed through that domain.
 
 Port Configuration: The application inside the container listens on port 8080, but externally, it is accessible through port 80, which was mapped in the service.
+
+![image](https://github.com/user-attachments/assets/aafaf900-90f9-46a5-b2a9-df2c0b40f44a)
