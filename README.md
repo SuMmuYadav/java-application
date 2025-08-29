@@ -72,4 +72,5 @@ External Access: The application is accessible externally via the LoadBalancer's
 
 Port Configuration: The application inside the container listens on port 8080, but externally, it is accessible through port 80, which was mapped in the service.
 
+
 ![image](https://github.com/user-attachments/assets/aafaf900-90f9-46a5-b2a9-df2c0b40f44a)
